@@ -1,0 +1,21 @@
+/* Thêm mã CSS sau vào tệp CSS của bạn */
+.horizontal-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-menu li {
+    margin-right: 20px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.horizontal-menu li.active a {
+    color: #e74c3c;
+}
